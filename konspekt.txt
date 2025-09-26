@@ -1,0 +1,29 @@
+jsda Obyekt
+Object — bu kalit (key) va qiymat (value) juftligidan tashkil topgan ma’lumotlar to‘plami.
+Object yaratish usullari 2ta 
+1. Literal usuli (eng ko‘p ishlatiladi)
+2. new Object() yordamida
+
+Literal usulga misol
+let odam = {
+ ism: "Ali",
+  yosh: 17,
+  kasb: "dasturchi",
+}
+
+newga misol
+let mashina = new Object();
+mashina.model = "BMW";
+mashina.yil = 2020;
+
+
+object metodlari 
+1. Object.keys(obj) – obyektning kalitlarini massiv sifatida qaytaradi.
+2. Object.values(obj) – obyektning qiymatlarini massiv sifatida qaytaradi.
+3. Object.entries(obj) – [kalit, qiymat] juftliklarini massiv sifatida qaytaradi.
+4. Object.assign(target, source) – obyektlarni birlashtiradi.
+5. Object.freeze(obj) – obyektni muzlatadi (o‘zgartirib bo‘lmaydi).
+6. Object.seal(obj) – yangi xususiyat qo‘shib bo‘lmaydi, lekin mavjudini o‘zgartirish mumkin.
+
+Object — kalit-qiymat juftligi.
+Object.keys(), Object.values(), Object.entries() – obyekt bilan ishlashda eng foydali metodlar.
